@@ -14,7 +14,41 @@
     />
   </head>
   <body>
-    <h1>Hello</h1>
+    <div class="container">
+      <div class="weatherapp">
+      <div class="search-form">
+        <input type="" placeholder="Find a city..." />
+        <button class="btn btn-primary">Search</button>
+      </div>
+      <h1>City Name</h1>
+      <div class="row">
+        <div class="col-6 rightcol">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARQAAAC3CAMAAADkUVG/AAAAgVBMVEX39/fzuzP3+fz3+v/zuB/zui/zuSnzuB738ebztxf23a30wET25sX25cLzuSr247324LT0z4P0wlD39vL379738ub26tD0x2D11ZH0xVn39e737tv0y2/zvTb115j12Z710Yb0znjzwUf26c3ztAD0x1/0zHH13Kf12Z311Y712JaSwccVAAAKcklEQVR4nO2d6XqqOhSGZWVARHHAoaI4V9ve/wUepoQEUOsukJjD+2M/+5yyC/lIVkKyhl6vo6Ojo6Ojo6Ojo6Ojo0Mp/kb1E+gH2q2Q6mfQjj52hqD6ITQDHSlxO1Ek4OxYFr51A0gEZsSyLC9Q/Rw6ARMcaWLRQ9dVcvww7ijRANp0ZoWBPpKOEo2fVSdKBsypleGM/y+qwJOGoq3HRCHus1+G/LoeSyn99fyh/YShbXHw/uG1yD+a0Zf6F+fbf9ASOBFLUKX/4Eq44cvIDFEci9LB3TEUNVTQxKLHe10F0PCELWyMKJZlz853GhtQS8JZVrcazbc46lImiWIR+7qokgUdCqKQWdVlEHzgxBwbJUo0MOhP2bTAxrEK2JPyVTAIs0FmmChRg8JJ0bTA2sEFbFycddF5hpkxNk6UaAytl/LgCEbDEqO5dAlabO18fjJPlEgW5xhIskAF0s97mTExWJTItOCvVxalk1CasQ0VxcK4bEnvAUvXtswXxcMfj5a3RaJFrEUNF4U418cfQmVQcLA9k0XBpyEqtym2rSihaGVT0GaVTz+miUKtW09uUSxGsDhPbruP6fE4/d7dBsN5EItTuGx0wkaK4tmHwmSM/OXteCLRag1TSj0v+oNG/0Hd7X4YyMJAb0+pcaIQZ7URJQE0v608G3vitgEzPB616fprI400FByTMWSQKDgcCU0EFNxODq7QQ1CG2uFuLuqClutIFmNEoXjfEyVZbu3HijAj5HyOQfyH4xDbhohyOfbzkQMwXItT7GOI7Q5EPXs7Q3begqFgTNB5bf+mk+SyYFf8tEbzpYImNIDQpMXVeUmStLcUP61NIlqyU/pchCpZDq98GrwTaLHGzwWohrr3tnjfGzTxfm1fqzrLzsC+AodfzcL3wSvThhD4/z50GDScv5cqVZuKQgtg4f5h6DAIFg3Lk1uqB8aDMpP8x5vwb0OH4Yy5KjCsuOVASevvAMNL8aACX/imIyxr0iQ+E+KqbEpnI/jypVVXQcfi8Mj9b2rUJDK3XBX0UVzzkJOq5t9hUbSj3FOrtrGT/V4+gvzi79XuWxH9yKrQafbssKhVk6jpZ6b2RN7o19A3rPDeKPP+9OuYd0QIYTMzrKVb2vp5EcJY7CrcTxht/+lr56EqYXaYBkvx8ERLf1PxvZFT9tK432OdUBbagI654iTU0TMZlnn7WewBDEuOFnWAd5kqQW5VNPVhz9+bt2UPbdVrZBl25u2EvtiLIDPtDEpKn5lUvEj/RwMGJZOAe5a6mepY17gYtE/fG/5OOwqM7QcN+xOU3WKU3oL3TQ1JnD/57FBaXdUIWxvCKumezkJhqx8Do8QRcpAN+KKLX52QdSbKJu4q+EffjtJD0XtjJg/mDczGOXgsSE9VNvoZMHfymeHYYEcRvv6CSn9KnUDfTuYxnfbrBmFKoJuz1lqT2H+aTcfTRjuKuDI53fHR1gZgX2WlvYTasdmyef7gebQCvhruKPFWgcZTTiXQ4BqFYeu7OKkEzg2b2Ri619yWFEDTmreWqiDue40faNyixDhvY2JjYNnC6InGz+2dxg/8tNJTyFvNP2jW/NwTg1U39BX8RnYhy9i6r2Vj2NlDOyYl3pgF6cYaAn52RFeIqm0OLztyg2Vl0KZ6AI1J9oXc6PaSCDllokycvY69JfaHZmelaN2OneW7SzDBOBxXBIgoBfWnDuEHyChsSRMLp8u3OCkNsT83Oo0h6O1xPGD4qXpLo4efH6eZeohTiBNRCMDITQ0rE6XZ3VmRLHwhS19kUVKMKFIE2qyY32MmSuM7kYIoE0mUJPZMvecbCg552DATpa1lCt89yEWJTMvq1SjFmoGeFAvKRBkqFCVavFClTutJQhPxETNRRq3ZFPpRFiU2LffTtTRN8HmR1yNMlLFiUSzLcVVFwMDyU47d0aWnWNhV5xMYrexd8Wm4TWlPlK8KUShVOzHnobGiKG3sWmd3LBtaD0+VL+HQ4sjHkIJ1yq0gCsErLcLI0tBYQZQ2V7RjWRTsjtWv3RIAJqlpYaIErYmSeRqzLKV4p8cqPwH8nzislokCbe0cRB+E6Q1jUYgjhvrqQBJHyrcO3LZUwanzbCQKsWdaGBMZdD45TJRSTEdThGzn7RJOdNtjSgAYTLM92l1b25ErJsq3RsZEhkf4tLWkpSwE1ddv5JSYt3Tug98pDytqydBq7D5bpiVLS8I3GDWc0qd8M2gZ4nOfYsK7ZrB1jVKopp3jsLdyOmjpNNm7m/lZU/ot7B682eiRcuE3BQlVN/LXMIeR5o858Nt4jMKB/aVxDy+WYR99a150AUYs7wMMGu4qbJECm8tOb4MLJ48Fy/Ua3lTJvDDigDn7QVUG9aBoJsYf7HO+0VmZd5SRrXVYZbY5i7NcBM1aFcJ6R9wheVIIDUkDn9h7a/T4h1V3ScN+tQ3Vzs97WFB/g1GEZJbdc5FlqR3oqgpLAcHTPzQV1W+VozeJptNyHrDOfH4bcz/gMfI8WYi2uwh5MJiXvbeGoiv54BE+xvUsTId2ebfgbpLNLFbsRdYThQRE3lZHURZSxQyWiqCJY+U8IZVos3T8ZpanGh4JytJW1KkJW9XLSc20S2jWSyu2ik/ODh9Q3dtNmG8tFUKfnxSmU0Bx+ZqnfUHftfYVuuW/+FrcstEsKxMMSsnv+HtDhxr7Cl3zW5Z2bHLzrgfRMq0I5QdVMK2tr9BZvkg7ecVb3itMpwb4Cd0i4YE/IRxqUoWuuCYwKN/S1S8n4ANqSveGr6obUito8Hpq+BLO4Z06wi9AZ+uP2/vE0TO93V+APySIj6GhiUni49p5/z6E8DYwbOxkoKH7j52F0oGB3SQFfLnQ4i8htm6+oH/Hl4qurF4r2hJLcpIyw2u6xfYii5kQGgtxLZsXegux5Uo2wfWd3Nzu07/gqS/JsnJ+uSHn2TOpFBTsqWOIKHG58ZtU5mrxYdlPdfEwPi6lSmNxqO9bOUTeJ3H1wjOpLCOC8yG071tdQjG5jn3pn8xX8arYJFGiBelWCo0FBJvbNsQY0+j7NleDeBRj63N37klu5RB8p6bIKFEqSr0CoN58dDusZq5Fk7oRJDx9HvfjuY+KRZN5qK9holSWG08qeaJe0E8Iog5UrOEZd6rhjK/6jBPFIvgf4k/QXKy+Zp4oyer0taQ40SqYSocnBooSf8fsXio3LteQNlQUC9MXyo2fw2K5cRNF8ejHK/FKAAOPGi4KsbeFRB5PK3+BfxCNinmixOXG5R8GszLF5A1osxXKjRsmCrUGpZEDN6d0YHQtTk8g5CQxSxQPf1ftKELJWQNXOIBGS1pCjROl+OnDKZ1+4q/K61BwcDyzRMGn0b2wYbSSvpXzk/nShZvPaGVrjCgU3x6kZZBDUx9sIiXpWmwzRFlcHic0kc5Uvc9HlwLsDdl5C559A4olb56ViEML48qN3/l57s+nm4uJQnI3KKKZM5JCuBe/piXi1ICuycpMQwdHlaROuDq6wioExRlX9I5lUkE0LdM3q7HeODC2WW3BDg5aUzP8CeoElm9VbaQlOkk6Ojo6Ojo6Ojo6Ojpa5T/sQpceTycSLgAAAABJRU5ErkJggg=="
+            alt="Weather Icon"
+            class="weathericon"
+          />
+          <div class="weatherproperty">Friday</div>
+          <div class="weatherproperty">5:00 PM</div>
+        </div>
+        <div class="col-6 leftcol">
+          <div class="weatherproperty">Clear</div>
+          <div class="weatherproperty">Humidity</div>
+          <div class="weatherproperty">Wind</div>
+        </div>
+      </div>
+       </div>
+
+      <footer>
+        <p>
+          This project was made by
+          <a href="https://github.com/Lilish-Warrior" target="_blank"
+            >Lilish Warrior</a
+          >
+        </p>
+      </footer>
+    </div>
+
     <script src="src/app.js"></script>
   </body>
 </html>
